@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/2300033507/fullstackapp.git', branch: 'master'
+                git url: 'https://github.com/2300033507/fullstackapp.git', branch: 'main'
             }
         }
 
